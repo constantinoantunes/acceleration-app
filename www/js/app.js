@@ -24,6 +24,7 @@ angular.module('starter', ['ionic', 'ngCordova', 'app.controllers'])
   // Each state's controller can be found in controllers.js
   $stateProvider
     .state('home', {url: '/', templateUrl: 'templates/home.html', controller: 'HomeController as controller'})
+    .state('no-accelerometer', {url: '/no-accelerometer', templateUrl: 'templates/no-accelerometer.html'})
   ;
   // if none of the above states are matched, use this as the fallback
   $urlRouterProvider.otherwise('/');
