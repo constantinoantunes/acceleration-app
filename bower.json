@@ -1,0 +1,21 @@
+{
+  "name": "barcode-app-example",
+  "version": "0.0.1",
+  "homepage": "https://github.com/constantinoantunes/barcode-app-example",
+  "authors": [
+    "Constantino <constantino.antunes@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "www/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ionic": "~1.1.0",
+    "ngCordova": "~0.1.20-alpha"
+  }
+}
