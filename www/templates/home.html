@@ -1,5 +1,13 @@
 <ion-view>
   <ion-content>
-    
+    <p>
+      Acceleration: {{controller.acceleration}}m/s^2
+    </p>
+    <p>
+      [<span ng-repeat="e in controller.vector track by $index"> {{e}} </span>]
+    </p>
+    <p>
+      Updated every {{controller.updateInterval/1000}}s
+    </p>
   </ion-content>
 </ion-view>

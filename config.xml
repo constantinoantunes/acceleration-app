@@ -8,6 +8,7 @@
         Constantino Antunes
     </author>
     <content src="index.html" />
+    <gap:plugin name="cordova-plugin-device-motion" source="npm" version="1.1.1" />
     <plugin name="cordova-plugin-whitelist" version="1" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
